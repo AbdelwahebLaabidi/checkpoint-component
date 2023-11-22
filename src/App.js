@@ -15,7 +15,8 @@ function App() {
   <Navbars/>
   <div className='cards'> 
     <Card style={{ width: '18rem' }}>
-      <Image/>
+      {hi !== '' && <Image/> }
+      {/* <Imaeg/> */}
       <Card.Body>
         <Card.Title><Name/></Card.Title>
         <Card.Text><Description/></Card.Text>
